@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Applify</string>
+    <string name="mensaje_bienvenida">Hello World!</string>
+</resources>

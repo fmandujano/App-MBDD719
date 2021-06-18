@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.sae.taller.app2021_1.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.sae.taller.app2021_1.MainMenuFragment"
+        android:label="MainMenuFragment"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_awardsFragment"
+            app:destination="@id/awardsFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.sae.taller.app2021_1.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/awardsFragment"
+        android:name="com.sae.taller.app2021_1.AwardsFragment"
+        android:label="fragment_awards"
+        tools:layout="@layout/fragment_awards" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.sae.taller.app2021_1.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+</navigation>

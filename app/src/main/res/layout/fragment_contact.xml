@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="286dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="24dp"
+            android:text="Reach us out!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="320dp"
+            android:layout_height="464dp"
+            app:columnCount="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title">
+
+            <ImageView
+                android:id="@+id/iconFB"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/btn_star_big_on" />
+
+            <ImageView
+                android:id="@+id/iconIG"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/btn_star_big_on" />
+
+            <ImageView
+                android:id="@+id/iconTW"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/btn_star_big_on" />
+
+            <ImageView
+                android:id="@+id/iconDiscord"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/btn_star_big_on" />
+
+            <ImageView
+                android:id="@+id/iconMail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/btn_star_big_on" />
+
+            <ImageView
+                android:id="@+id/iconPhone"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/btn_star_big_on" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

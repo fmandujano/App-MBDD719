@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="morado">#FF572364</color>
+    <color name="orange">#FFffc996</color>
+    <color name="blu">#5BA7CA</color>
 </resources>

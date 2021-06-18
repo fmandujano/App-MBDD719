@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">Applify</string>
-    <string name="mensaje_bienvenida">Hello World!</string>
+    <string name="app_name">Appify</string>
+    <string name="mensaje_bienvenida">"Pronto tu \nmundo digital cambiará  \n💛🦠😷 ☿ \nありがとう"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_aboutus">¿Por qué APPIFY?</string>
+    <string name="aboutus">Este texto lo debe escribir el copywriter</string>
+    <string name="title_portfolio">Portfolio</string>
+    <string name="title_achievements">Premios</string>
+    <string name="title_clients">Nuestro clientes</string>
+    <string name="title_contact">Ponte en contacto</string>
 </resources>
